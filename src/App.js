@@ -2,9 +2,12 @@
 import './App.css';
 
 function App() {
+  const name= <h1>MARK</h1>
   return (
     <div className="App">
-      Hello world
+     {name}
+     {name}
+     
     </div>
   );
 }
