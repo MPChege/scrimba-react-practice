@@ -18,20 +18,20 @@ function App() {
   return (
     <div className="App">
      
-    <User />
-    <User />
-    <User />
+    <User name ="Mark Paul" age ={21} email ="markpaulchege77@gmai.com" />
+    {/* <User />
+    <User /> */}
 
     </div>
   );
 }
 
-const User = () =>{
+const User = (props) =>{
   return  (
   <div>
-  <h1>MARK</h1>
-  <h1>21</h1>
-  <h1>Markpaulcheg77@gmail.com</h1>
+  <h1>{props.name}</h1>
+  <h1>{props.age}</h1>
+  <h1>{props.email}</h1>
    </div>
    );
 
